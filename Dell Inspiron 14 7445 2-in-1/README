@@ -1,0 +1,12 @@
+Manufacturer: Dell
+Model Name: Inspiron 14 7445 2-in-1
+Model Number: P186G
+
+Notes: This model uses ELAN pen/tablet protocol
+
+Source(s):
+* sysinfo.BRJPJZKkp3
+  luyatshimbalanga [https://github.com/luyatshimbalanga]
+  https://github.com/linuxwacom/wacom-hid-descriptors/issues/532
+  2025-11-02
+

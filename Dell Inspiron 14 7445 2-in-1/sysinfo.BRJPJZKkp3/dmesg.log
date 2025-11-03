@@ -1,0 +1,89 @@
+[    1.276557] ACPI: thermal: Thermal Zone [THM] (70 C)
+[    1.276965] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    1.279612] Non-volatile memory driver v1.3
+[    1.279617] Linux agpgart interface v0.103
+[    1.287693] ACPI: battery: Slot [BAT0] (battery present)
+[    1.330857] tpm_crb MSFT0101:00: Disabling hwrng
+[    1.331280] ACPI: bus type drm_connector registered
+[    1.334083] xhci_hcd 0000:03:00.3: xHCI Host Controller
+[    1.334156] xhci_hcd 0000:03:00.3: new USB bus registered, assigned bus number 1
+[    1.334628] xhci_hcd 0000:03:00.3: hcc params 0x0128ffc5 hci version 0x120 quirks 0x0000000200000010
+[    1.335040] xhci_hcd 0000:03:00.3: xHCI Host Controller
+--
+[    1.712209] usb 3-1: New USB device found, idVendor=0bda, idProduct=557e, bcdDevice=34.11
+[    1.712216] usb 3-1: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+[    1.712220] usb 3-1: Product: Integrated_Webcam_FHD
+[    1.712223] usb 3-1: Manufacturer: CKFNF16V02243008E260
+[    1.712226] usb 3-1: SerialNumber: 200901010001
+[    1.733097] usb 1-4: New USB device found, idVendor=04f3, idProduct=0c99, bcdDevice=81.02
+[    1.733101] usb 1-4: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    1.733103] usb 1-4: Product: ELAN:ARM-M4
+[    1.733104] usb 1-4: Manufacturer: ELAN
+[    1.847480] usb 1-5: new full-speed USB device number 3 using xhci_hcd
+[    1.920857] wmi_bus wmi_bus-PNP0C14:00: [Firmware Bug]: WQBC data block query control method not found
+[    1.920882] wmi_bus wmi_bus-PNP0C14:00: [Firmware Bug]: WMBD method block execution control method not found
+[    1.950090] sp5100_tco: SP5100/SB800 TCO WatchDog Timer Driver
+[    1.950182] sp5100-tco sp5100-tco: Using 0xfeb00000 for watchdog MMIO address
+--
+[    1.993116] usb 1-5: New USB device found, idVendor=0bda, idProduct=886c, bcdDevice= 0.00
+[    1.993126] usb 1-5: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    1.993131] usb 1-5: Product: Bluetooth Radio
+[    1.993134] usb 1-5: Manufacturer: Realtek
+[    1.993138] usb 1-5: SerialNumber: 00e04c000001
+[    2.060519] input: ELAN3233:00 04F3:42AB Touchscreen as /devices/platform/AMDI0010:00/i2c-0/i2c-ELAN3233:00/0018:04F3:42AB.0001/input/input4
+[    2.060702] input: ELAN3233:00 04F3:42AB as /devices/platform/AMDI0010:00/i2c-0/i2c-ELAN3233:00/0018:04F3:42AB.0001/input/input5
+[    2.060823] input: ELAN3233:00 04F3:42AB Stylus as /devices/platform/AMDI0010:00/i2c-0/i2c-ELAN3233:00/0018:04F3:42AB.0001/input/input6
+[    2.060976] hid-generic 0018:04F3:42AB.0001: input,hidraw0: I2C HID v1.00 Device [ELAN3233:00 04F3:42AB] on i2c-ELAN3233:00
+[    2.077752] tsc: Refined TSC clocksource calibration: 3293.781 MHz
+[    2.077773] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2f7a5979f7a, max_idle_ns: 440795279213 ns
+[    2.077832] clocksource: Switched to clocksource tsc
+[    2.086074] [drm] Initialized amdxdna_accel_driver 0.0.0 for 0000:04:00.1 on minor 0
+[    2.104598] input: DELL0CA9:00 27C6:0D53 Mouse as /devices/platform/AMDI0010:01/i2c-1/i2c-DELL0CA9:00/0018:27C6:0D53.0002/input/input9
+[    2.105013] input: DELL0CA9:00 27C6:0D53 Touchpad as /devices/platform/AMDI0010:01/i2c-1/i2c-DELL0CA9:00/0018:27C6:0D53.0002/input/input10
+[    2.105572] hid-generic 0018:27C6:0D53.0002: input,hidraw1: I2C HID v1.00 Mouse [DELL0CA9:00 27C6:0D53] on i2c-DELL0CA9:00
+[    2.151609] nvme 0000:02:00.0: platform quirk: setting simple suspend
+[    2.151682] nvme nvme0: pci function 0000:02:00.0
+[    2.265986] nvme nvme0: allocated 64 MiB host memory buffer (1 segment).
+[    2.271899] nvme nvme0: 16/0/0 default/read/poll queues
+[    2.276505]  nvme0n1: p1 p2 p3
+[    2.347641] input: ELAN3233:00 04F3:42AB as /devices/platform/AMDI0010:00/i2c-0/i2c-ELAN3233:00/0018:04F3:42AB.0001/input/input12
+[    2.347794] input: ELAN3233:00 04F3:42AB UNKNOWN as /devices/platform/AMDI0010:00/i2c-0/i2c-ELAN3233:00/0018:04F3:42AB.0001/input/input13
+[    2.347911] input: ELAN3233:00 04F3:42AB Stylus as /devices/platform/AMDI0010:00/i2c-0/i2c-ELAN3233:00/0018:04F3:42AB.0001/input/input14
+[    2.348028] input: ELAN3233:00 04F3:42AB UNKNOWN as /devices/platform/AMDI0010:00/i2c-0/i2c-ELAN3233:00/0018:04F3:42AB.0001/input/input15
+[    2.348095] hid-multitouch 0018:04F3:42AB.0001: input,hidraw0: I2C HID v1.00 Device [ELAN3233:00 04F3:42AB] on i2c-ELAN3233:00
+[    2.436355] ACPI: video: Video Device [VGA] (multi-head: yes  rom: no  post: no)
+[    2.436683] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:16/LNXVIDEO:00/input/input18
+[    2.465634] input: DELL0CA9:00 27C6:0D53 Mouse as /devices/platform/AMDI0010:01/i2c-1/i2c-DELL0CA9:00/0018:27C6:0D53.0002/input/input19
+[    2.465968] input: DELL0CA9:00 27C6:0D53 Touchpad as /devices/platform/AMDI0010:01/i2c-1/i2c-DELL0CA9:00/0018:27C6:0D53.0002/input/input20
+[    2.466213] hid-multitouch 0018:27C6:0D53.0002: input,hidraw1: I2C HID v1.00 Mouse [DELL0CA9:00 27C6:0D53] on i2c-DELL0CA9:00
+[    2.695770] BTRFS: device label fedora-design-suite devid 1 transid 525168 /dev/nvme0n1p2 (259:2) scanned by mount (682)
+[    2.696080] BTRFS info (device nvme0n1p2): first mount of filesystem b8250ad0-059a-4eb7-893d-9757e1c0599d
+[    2.696106] BTRFS info (device nvme0n1p2): using crc32c (crc32c-x86_64) checksum algorithm
+[    2.696113] BTRFS info (device nvme0n1p2): using free-space-tree
+[    2.707098] BTRFS info (device nvme0n1p2): bdev /dev/nvme0n1p2 errs: wr 0, rd 0, flush 0, corrupt 11, gen 0
+--
+[    6.414518] systemd[1]: Starting modprobe@loop.service - Load Kernel Module loop...
+[    6.414576] systemd[1]: plymouth-switch-USERNAME.service: Deactivated successfully.
+[    6.414639] systemd[1]: Stopped plymouth-switch-USERNAME.service - Plymouth switch USERNAME service.
+[    6.414821] systemd[1]: systemd-fsck-USERNAME.service: Deactivated successfully.
+[    6.414879] systemd[1]: Stopped systemd-fsck-USERNAME.service - File System Check on Root Device.
+[    6.414988] systemd[1]: systemd-hibernate-clear.service - Clear Stale Hibernate Storage Info was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/HibernateLocation-8cf2644b-4b0b-428f-9387-6d876050dc67).
+[    6.417117] systemd[1]: Starting systemd-journald.service - Journal Service...
+[    6.418062] systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+[    6.418091] systemd[1]: systemd-pcrmachine.service - TPM PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+[    6.418822] systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+[    6.418880] systemd[1]: systemd-tpm2-setup-early.service - Early TPM SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+--
+[    7.156715] Bluetooth: L2CAP socket layer initialized
+[    7.156722] Bluetooth: SCO socket layer initialized
+[    7.263208] input: Dell WMI hotkeys as /devices/platform/PNP0C14:00/wmi_bus/wmi_bus-PNP0C14:00/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input23
+[    7.268535] spd5118 17-0050: DDR5 temperature sensor: vendor 0x00:0xb3 revision 2.2
+[    7.273550] spd5118 17-0051: DDR5 temperature sensor: vendor 0x00:0xb3 revision 2.2
+[    7.280199] hid-generic 0020:1022:0001.0003: hidraw2: SENSOR HUB HID v0.00 Device [hid-amdsfh 1022:0001] on pcie_mp2_amd
+[    7.280373] hid-generic 0020:1022:0001.0004: hidraw3: SENSOR HUB HID v0.00 Device [hid-amdsfh 1022:0001] on pcie_mp2_amd
+[    7.280565] hid-generic 0020:1022:0001.0005: hidraw4: SENSOR HUB HID v0.00 Device [hid-amdsfh 1022:0001] on pcie_mp2_amd
+[    7.290093] kvm_amd: TSC scaling supported
+[    7.290097] kvm_amd: Nested Virtualization enabled
+[    7.290099] kvm_amd: Nested Paging enabled
+[    7.290101] kvm_amd: LBR virtualization supported
+[    7.290111] kvm_amd: Virtual GIF supported
